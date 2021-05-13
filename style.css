@@ -1,0 +1,63 @@
+body {
+  background-color: aliceblue;
+  color: #df63d8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  /*
+    same as above but different approach 
+    font: normal 16px Arial,helvetica, sans-serif;
+  */
+  line-height: 1.6em;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: antiquewhite;
+  border: 5px rebeccapurple solid;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.box-1 h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline skyblue;
+  text-transform: capitalize;
+  /*letter-spacing: 0.2em;
+  word-spacing: 1em;*/
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: blueviolet;
+}
+
+.categories {
+  margin-top: 20px;
+  border: 2px #df63d8 dotted;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  border-width: 5px;
+}
+.categories h2 {
+  text-align: center;
+}
+.categories u1 {
+  padding: 0;
+  list-style: square;
+}
